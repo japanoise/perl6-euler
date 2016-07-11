@@ -7,13 +7,10 @@ sub isin( $n , @a ){
 	}
 }
 my @squares = map({exp(2,$_)},0..*);
-for 1..* -> $a {
-	for 1..1000 -> $b {
-		my $cs = (@squares[$a] + @squares[$b]);
-		next unless (isin($cs,@squares));
-		my $c = sqrt($cs);
-		say ($a + $b + $c);
-		if (($a + $b + $c)==1000) {
+for 2..1000 -> $c {
+	for 2..$c -> $a {
+		my $b = 1000 - $c - $a;
+		if @squares[$a] + @squares[$b] == @squares[$c] {
 			say ($a * $b * $c);
 			exit 0;
 		}
