@@ -4,11 +4,11 @@ or have their theory cannibalized from somewhere. So, these should not be viewed
 to solving the problem - just as a map through my process of learning Perl 6.
 
 ## Problems solved
-- Problem 1
-- Problem 2
-- Problem 4
-- Problem 6
-- Problem 8
-- Problem 9
-- Problem 13
-- Problem 16
+- Problem 1: multiples of 3 and 5.p6
+- Problem 2: fibeven.p6
+- Problem 4: palindrome.p6
+- Problem 6: sumsquare.p6
+- Problem 8: largestproduct.p6
+- Problem 9: triplet.p6
+- Problem 13: largesum.p6
+- Problem 16: powdigit.p6
